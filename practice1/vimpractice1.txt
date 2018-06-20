@@ -1,0 +1,20 @@
+aaaa
+bbbb
+
+
+
+cccc
+
+
+
+ddddd
+var i = 0;
+
+var abc = (commands) => {
+	commands.forEach(command){
+		console.log(`command${i} is executed`);
+		i++;
+	}
+};
+
+
